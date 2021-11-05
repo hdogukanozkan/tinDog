@@ -1,0 +1,115 @@
+
+/*  navbar  */
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+}
+
+/*  title Body   */
+.title-body{
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+
+.big-header{ /* en üst ana başlık Ve en alt download başlığı */
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 8%;
+    padding-top: 5%;
+}
+
+.sag-title{
+    position: relative;
+}
+
+.iphone{
+    position: absolute;
+    right: 30%;
+    width: 50%;
+    transform: rotate(25deg);
+}
+
+/*  features    */
+#features{
+    padding: 4% 0 4%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4% 5%;
+}
+
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+.s-paragraf{ /* gri paragraflar  */
+    padding-left: 1.5%;
+    font-size: 1.4rem;
+    color: grey;
+    margin-bottom: 5%;
+}
+
+/*  testimonials    */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.medium-header{ /* pricing satın alma başlığı=A Plan for   geçişli carousel büyük hedaerı  */
+    font-size: 3.2rem;
+    padding-bottom: 2%;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+}
+
+.nick-name{
+    padding-left: 1.5%;
+    font-size: 1.4rem;
+}
+
+.testimonial-icon{
+    width: 15%;
+    padding-bottom: 3%;
+}
+
+/*  pricing */
+
+.card-mini-header{
+    font-size: 2.8rem;
+    margin-bottom: 7%;
+}
+
+/*  Cta  */
+
+.arkaplan{ /* cta ve title */
+    background-color: #ff4c68;
+}
+
+.cta-section{
+    padding:5% 12%;
+}
+
+.pad{ /*    id footer ve pricing    */
+    padding: 7% 0 5%;
+    text-align: center;
+}

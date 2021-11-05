@@ -137,6 +137,9 @@
     }
 }
 @media (max-width:770px){
+    body{
+        font-size: 15px;
+    }
     .title-body{
         text-align: center;
     }

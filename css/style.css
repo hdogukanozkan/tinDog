@@ -35,7 +35,7 @@
 
 /*  features    */
 #features{
-    padding: 4% 0 4%;
+    padding: 5% 0 5%;
     position: relative;
     z-index: 1;
     background-color: white;
@@ -93,6 +93,9 @@
 }
 
 /*  pricing */
+.card{
+    margin-top:5%;
+}
 
 .card-mini-header{
     font-size: 2.8rem;
@@ -112,4 +115,30 @@
 .pad{ /*    id footer ve pricing    */
     padding: 7% 0 5%;
     text-align: center;
+}
+
+
+@media (max-width:1300px){
+    .medium-header{
+        font-size:2.9rem;
+    }
+    .testimonial-image{
+        width: 12.5%;
+    }
+}
+@media (max-width: 970px){
+    .testimonial-image{
+        width: 15%;
+    }
+}
+@media (max-width:650px){
+    .testimonial-image{
+        width: 20%;
+    }
+    .medium-header{
+        font-size: 2.2rem;
+    }
+    .big-header{
+        font-size: 3rem;
+    }
 }
